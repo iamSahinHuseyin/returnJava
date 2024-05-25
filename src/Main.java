@@ -31,5 +31,5 @@ public class Main {
         //RETURN KAVRAMI OLMASAYDI BU İŞLEMLERİ YAPAMAZDIK.
         System.out.println("Bütün işlemlerin sonucu: " +
                 Carpim(ikiCarpim(Toplama(a,b),a),b));//return kavramı sayesinde iç içe method kullanmak
-    }
+    }   //RETURN KAVRAMI YERİNE "VOID" kavramı ile yapmış olsaydık böyle işlemleri yapamazdık.
 }
